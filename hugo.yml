@@ -1,0 +1,44 @@
+baseURL: 'https://saiello.github.io'
+languageCode: 'en-us'
+title: 'saiello.github.io'
+theme: 'PaperMod'
+
+
+
+params:
+  ShowReadingTime: true
+  ShowShareButtons: true
+
+
+  homeInfoParams:
+    #Title: Hi there wave
+    Content: |
+      # Hey there, and welcome!
+
+      I'm stoked to kick off this journey where I'll be sharing all the juicy bits I've picked up during my consultancy gigs
+       in the software development realm.
+      From nifty tips and tricks to downright frustrating pitfalls and I'm here to spill the beans.
+      
+      Don't expect rocket science. Nope, we're all about the simplest stuff that can make the world of software development 
+      a little bit better. It's all about those small wins that add up to big victories!
+      
+
+  profileMode:
+    enabled: false
+    title: "Simone Aiello" # optional default will be site title
+    #subtitle: "This is subtitle"
+    #imageUrl: "<image link>" # optional
+    #imageTitle: "<title of image as alt>" # optional
+    #imageWidth: 120 # custom size
+    #imageHeight: 120 # custom size
+    buttons:
+      - name: Archive
+        url: "/archives"
+      - name: Github
+        url: "https://github.com/saiello"
+
+  socialIcons: # optional
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/simoneaiello/"
+    - name: github
+      url: "https://github.com/saiello"
