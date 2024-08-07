@@ -1,7 +1,7 @@
 baseURL: 'https://saiello.github.io'
 languageCode: 'en-us'
 title: 'saiello.github.io'
-theme: 'PaperMod'
+theme: ['hugo-notice', 'PaperMod']
 
 
 
